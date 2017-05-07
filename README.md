@@ -27,16 +27,39 @@ $ pacaur -Sy mysql-clients
 **Fonts**
 ```
 $ sudo pacman -Sy ttf-dejavu
+
+# Power Line
+$ git clone https://github.com/powerline/fonts.git
+$ cd fonts
+$ ./install.sh
+$ cd ..
+$ rm -rf fonts
 ```
 
 **System**
 
-[Hide user from login list](https://wiki.archlinux.org/index.php/GDM#Hide_user_from_login_list)
+Hide user from login list
+ - [Gnome](https://wiki.archlinux.org/index.php/GDM#Hide_user_from_login_list)
 
 ```
 $ sudo pacman -S net-tools
 $ sudo pacman -S htoop
 $ sudo pacman -S lib32-libstdc++5 glibc
+```
+
+**Wifi**
+```
+$ sudo pacman -S rfkill
+$ sudo pacman -S crda
+$ sudo pacman -S wireless-regdb
+```
+Many laptops have a hardware button (or switch) to turn off wireless card, however, the card can also be blocked by kernel. This can be handled by rfkill. Use rfkill to show the current status:
+
+```
+$ rfkill list
+
+# If the card is hard-blocked, use the hardware button (switch) to unblock it. If the card is not hard-blocked but soft-blocked, use the following command:
+$ rfkill unblock wifi
 ```
 
 **Image Editor**
@@ -96,6 +119,7 @@ $ curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.1/install.sh |
 
 # list the last version
 $ nvm ls-remote
+# choice the version
 $ nvm install [x.x.x]
 
 # The script clones the nvm repository to ~/.nvm and adds the source line to your profile (~/.bash_profile, ~/.zshrc, ~/.profile, or ~/.bashrc).
