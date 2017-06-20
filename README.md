@@ -44,6 +44,7 @@ Hide user from login list
 ```
 $ sudo pacman -S net-tools
 $ sudo pacman -S htoop
+$ sudo pacman -S glances
 $ sudo pacman -S lib32-libstdc++5 glibc
 ```
 
