@@ -28,13 +28,6 @@ sudo pkgfile -u
 **Text Editors**
 ```
 sudo pacman -S code
-pacaur -Sy sublime-text-dev
-```
-
-**IDE's**
-```
-$ sudo pacman -S eclipse-jee
-$ sudo pacman -S arduino
 ```
 
 <a id="games"></a>
@@ -64,15 +57,6 @@ sudo pacman -S curl wget
 sudo pacman -S lynx
 ```
 
-
-```shell
-sudo pacman -S skype slack zoom
-```
-
-```shell
-sudo pacman -S dropbox 
-```
-
 <a id="video"></a>
 **Video**
 ```shell
@@ -84,10 +68,6 @@ sudo pacman -S vlc
 sudo pacman -S gimp
 ```
 
-```
-$ sudo pacman -S tar gzip bzip2 unzip unrar p7zip
-```
-
 **Languages**
 ```
 sudo pacman -S jre8-openjdk
@@ -97,8 +77,5 @@ For Ruby, follow the instructions on [Ruby Verion Manager](https://rvm.io/rvm/in
 
 **Git**
 ```
-$ sudo pacman -S tig
+sudo pacman -S tig
 ```
-
-
-
