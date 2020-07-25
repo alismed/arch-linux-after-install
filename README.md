@@ -89,7 +89,9 @@ sudo pacman -S lynx
 
 
 ```shell
-sudo pacman -S skype slack zoom
+sudo snap install skype --classic 
+sudo snap install slack --classic 
+sudo snap install zoom --classic 
 ```
 
 ```shell
