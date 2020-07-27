@@ -13,6 +13,7 @@ My setup after install Arch Linux
 - [Docker](#docker)
 - [Javascript packages](#jspackage)
 - [Comumunicators](#communicators)
+- [CLI's](#cli)
 
 
 <a id="system"></a>
@@ -31,6 +32,8 @@ sudo pacman -S putty
 sudo pacman -S neofetch
 sudo pacman -S pv
 sudo pacman -S lsof
+sudo pacman -S netstat-nat
+sudo pacman -S dstat
 ```
 
 <a id="packages"></a>
@@ -145,6 +148,7 @@ sudo pacman -S tar gzip bzip2 unzip unrar p7zip
 **Languages**
 ```
 sudo pacman -S jre8-openjdk
+sudo pacman -S maven
 ```
 
 For Ruby, follow the instructions on [Ruby Verion Manager](https://rvm.io/rvm/install)
@@ -194,3 +198,11 @@ Choice the version to install
 ```
 nvm install [x.x.x]
 ```
+
+<a id="cli"></a>
+**CLI's**
+```shell
+npm install -g heroku
+npm install -g sfdx-cli
+```
+
