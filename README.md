@@ -1,10 +1,26 @@
 ## Arch Linux after install
 My setup after install Arch Linux
 
+- [IDE's](#ides)
+- [System](#system)
+- [Git](#git)
+- [Games](#games)
+- [Databases](#databases)
+- [Languages](#languages)
+- [Terminal](#terminal)
+- [Browsers](#browser)
+- [Video](#video)
+- [Docker](#docker)
+- [Javascript packages](#jspackage)
+- [Comumunicators](#communicators)
+
+
+<a id="system"></a>
 Update the system
 ```shell
 sudo pacman -Syu
 ```
+
 <a id="system"></a>
 **System**
 ```shell
@@ -47,17 +63,28 @@ Edit /var/lib/AccountsService/users/**[username]**. Change the variable _SystemA
 ```
 SystemAccount=true
 ```
+<a id="git"></a>
+**Git**
+```
+sudo pacman -S git tig
+
+ssh key
+ssh-keygen -t rsa -b 4096 -C "<your_email@example.com>"
+cat ~/.ssh/id_rsa.pub
+```
 
 **Text Editors**
 ```
 sudo pacman -S code
+sudo snap install code --classic
 pacaur -Sy sublime-text-dev
 ```
 
+<a id="ides"></a>
 **IDE's**
 ```
-$ sudo pacman -S eclipse-jee
-$ sudo pacman -S arduino
+sudo pacman -S eclipse
+sudo pacman -S arduino
 ```
 
 <a id="games"></a>
@@ -87,7 +114,8 @@ sudo pacman -S curl wget
 sudo pacman -S lynx
 ```
 
-
+<a id="communicators"></a>
+**Communicators**
 ```shell
 sudo snap install skype --classic 
 sudo snap install slack --classic 
@@ -107,10 +135,11 @@ sudo pacman -S vlc
 **Image Editor**
 ```
 sudo pacman -S gimp
+sudo pacman -S imagemagick
 ```
 
 ```
-$ sudo pacman -S tar gzip bzip2 unzip unrar p7zip
+sudo pacman -S tar gzip bzip2 unzip unrar p7zip
 ```
 
 **Languages**
