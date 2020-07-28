@@ -3,6 +3,7 @@ My setup after install Arch Linux
 
 - [IDE's](#ides)
 - [System](#system)
+- [Security](#security)
 - [Git](#git)
 - [Games](#games)
 - [Databases](#databases)
@@ -34,6 +35,14 @@ sudo pacman -S pv
 sudo pacman -S lsof
 sudo pacman -S netstat-nat
 sudo pacman -S dstat
+```
+
+<a id="security"></a>
+**Security**
+```shell
+sudo pacman -S rkhunter
+rkhunter --propupd
+sudo rkhunter --check
 ```
 
 <a id="packages"></a>
