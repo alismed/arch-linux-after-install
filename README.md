@@ -111,6 +111,7 @@ sudo pacman -S mame
 **Databases Clients**
 ```
 sudo pacman -S mysql-clients
+sudo pacman -S postgresql-libs
 ```
 
 <a id="terminal"></a>
@@ -160,7 +161,15 @@ sudo pacman -S jre8-openjdk
 sudo pacman -S maven
 ```
 
-For Ruby, follow the instructions on [Ruby Verion Manager](https://rvm.io/rvm/install)
+**Ruby**
+
+Follow the instructions on [Ruby Verion Manager](https://rvm.io/rvm/install)
+
+
+**Python**
+```
+sudo pacman -S python-pip
+```
 
 **Git**
 ```
