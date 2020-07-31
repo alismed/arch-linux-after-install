@@ -65,6 +65,10 @@ yaourt -Syu
 # pkgfile
 sudo pacman -S pkgfile
 sudo pkgfile -u
+
+# yay
+sudo pacman -S yay
+sudo yay -Syu
 ```
 
 **Login**
