@@ -35,6 +35,7 @@ sudo pacman -S pv
 sudo pacman -S lsof
 sudo pacman -S netstat-nat
 sudo pacman -S dstat
+sudo pacman -S albert
 ```
 
 <a id="security"></a>
