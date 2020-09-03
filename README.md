@@ -11,6 +11,7 @@ My setup after install Arch Linux
 - [Terminal](#terminal)
 - [Browsers](#browser)
 - [Video](#video)
+- [Audio](#audio)
 - [Docker](#docker)
 - [Javascript packages](#jspackage)
 - [Comumunicators](#communicators)
@@ -153,6 +154,13 @@ sudo pacman -S dropbox
 **Video**
 ```shell
 sudo pacman -S vlc
+sudo pacman -S obs-studio
+```
+
+<a id="audio"></a>
+**Audio**
+```shell
+sudo pacman -S audacity
 ```
 
 **Image Editor**
