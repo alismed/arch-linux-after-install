@@ -116,6 +116,7 @@ sudo pacman -S arduino
 sudo pacman -S snes9x
 sudo pacman -S stella
 sudo pacman -S mame
+sudo pacman -S fceux
 ```
 
 <a id="databases"></a>
