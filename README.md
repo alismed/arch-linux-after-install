@@ -116,6 +116,7 @@ sudo pacman -S arduino
 sudo pacman -S snes9x
 sudo pacman -S stella
 sudo pacman -S mame
+sudo pacman -S qmc2
 sudo pacman -S fceux
 ```
 
