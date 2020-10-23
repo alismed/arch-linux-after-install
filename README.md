@@ -157,6 +157,7 @@ sudo pacman -S dropbox
 ```shell
 sudo pacman -S vlc
 sudo pacman -S obs-studio
+sudo pacman -S simplescreenrecorder
 ```
 
 <a id="audio"></a>
