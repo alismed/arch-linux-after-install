@@ -39,6 +39,14 @@ sudo pacman -S dstat
 sudo pacman -S albert
 ```
 
+**Bluetooth**
+```
+sudo pacman -S bluez
+sudo pacman -S bluez-utils
+sudo systemctl enable bluetooth
+sudo systemctl start bluetooth
+```
+
 <a id="security"></a>
 **Security**
 ```shell
